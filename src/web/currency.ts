@@ -1,5 +1,5 @@
-import { FileDataItem } from "arbundles/file";
-import { Signer } from "arbundles/src/signing";
+import { FileDataItem } from "arseeding-arbundles/file";
+import { Signer } from "arseeding-arbundles/src/signing";
 import Arweave from "arweave";
 import base64url from "base64url";
 import BigNumber from "bignumber.js";

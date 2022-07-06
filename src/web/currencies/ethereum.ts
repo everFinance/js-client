@@ -1,7 +1,7 @@
-import keccak256 from "arbundles/src/signing/keccak256";
+import keccak256 from "arseeding-arbundles/src/signing/keccak256";
 import { ethers } from "ethers";
 import BigNumber from "bignumber.js";
-import { InjectedEthereumSigner, Signer } from "arbundles/src/signing";
+import { InjectedEthereumSigner, Signer } from "arseeding-arbundles/src/signing";
 import { Tx, CurrencyConfig } from "../../common/types";
 import BaseWebCurrency from "../currency";
 

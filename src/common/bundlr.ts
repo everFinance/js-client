@@ -3,12 +3,12 @@ import { withdrawBalance } from "./withdrawal";
 import Uploader from "./upload";
 import Fund from "./fund";
 import { AxiosResponse } from "axios";
-import { DataItemCreateOptions } from "arbundles";
+import { DataItemCreateOptions } from "arseeding-arbundles";
 import BundlrTransaction from "./transaction";
 import Api from "./api";
 import BigNumber from "bignumber.js";
 import { Currency, FundData } from "./types";
-import { Signer } from "arbundles/src/signing";
+import { Signer } from "arseeding-arbundles/src/signing";
 
 export default abstract class Bundlr {
     public api: Api;
@@ -61,7 +61,7 @@ export default abstract class Bundlr {
     }
 
     /**
-     * Create a new BundlrTransactions (flex currency arbundles dataItem)
+     * Create a new BundlrTransactions (flex currency arseeding-arbundles dataItem)
      * @param data 
      * @param opts - dataItemCreateOptions
      * @returns - a new BundlrTransaction instance

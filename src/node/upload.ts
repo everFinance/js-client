@@ -6,7 +6,7 @@ import Api from "../common/api";
 import Utils from "../common/utils";
 import * as p from "path"
 import mime from "mime-types";
-import { createData, DataItem } from "arbundles";
+import { createData, DataItem } from "arseeding-arbundles";
 import inquirer from "inquirer";
 import { Readable } from "stream";
 import * as csv from "csv"
@@ -31,7 +31,7 @@ export default class NodeUploader extends Uploader {
         }
         const mimeType = mime.contentType(mime.lookup(path) || "application/octet-stream")
         const tags = [{ name: "Content-Type", value: this.contentTypeOverride ?? mimeType }]
-        // TODO: re-enable once arbundles' file API is ready
+        // TODO: re-enable once arseeding-arbundles' file API is ready
         // if (this.forceUseChunking || (await promises.stat(path)).size >= 25_000_000) {
         //     // make a tmp stream data item
         //     return await 

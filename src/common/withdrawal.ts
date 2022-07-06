@@ -1,4 +1,4 @@
-import { deepHash } from "arbundles";
+import { deepHash } from "arseeding-arbundles";
 import { stringToBuffer } from "arweave/node/lib/utils";
 import { AxiosResponse } from "axios";
 import Utils from "./utils";

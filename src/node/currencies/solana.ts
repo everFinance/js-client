@@ -1,7 +1,7 @@
-import { Signer } from "arbundles/src/signing";
+import { Signer } from "arseeding-arbundles/src/signing";
 import BigNumber from "bignumber.js";
 import * as web3 from "@solana/web3.js";
-import { signers } from "arbundles";
+import { signers } from "arseeding-arbundles";
 import bs58 from "bs58";
 import nacl from "tweetnacl";
 import { CurrencyConfig, Tx } from "../../common/types";

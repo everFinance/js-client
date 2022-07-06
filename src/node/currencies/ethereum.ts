@@ -1,9 +1,9 @@
-import keccak256 from "arbundles/src/signing/keccak256";
+import keccak256 from "arseeding-arbundles/src/signing/keccak256";
 import { publicKeyCreate } from "secp256k1";
 import { ethers, Wallet } from "ethers";
 import BigNumber from "bignumber.js";
-import { signers } from "arbundles";
-import { Signer } from "arbundles/src/signing";
+import { signers } from "arseeding-arbundles";
+import { Signer } from "arseeding-arbundles/src/signing";
 import { JsonRpcProvider } from "@ethersproject/providers";
 import { CurrencyConfig, Tx } from "../../common/types";
 import BaseNodeCurrency from "../currency";
